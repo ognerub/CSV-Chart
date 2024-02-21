@@ -8,5 +8,4 @@ target 'CSV-Chart' do
   # Pods for CSV-Chart
 
 pod 'Charts'
-pod 'TinyConstraints'
 end
