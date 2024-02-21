@@ -7,23 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6BB486B3B202E116FA96ED0C /* Pods_CSV_Chart.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E2736B45011417D6FD12CBF /* Pods_CSV_Chart.framework */; };
+		848C79A82B86334700DBDDA9 /* DateValueFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848C79A72B86334700DBDDA9 /* DateValueFormatter.swift */; };
+		848C79AA2B8633A000DBDDA9 /* ChartViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848C79A92B8633A000DBDDA9 /* ChartViewModel.swift */; };
+		848C79AC2B86366F00DBDDA9 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848C79AB2B86366F00DBDDA9 /* Colors.swift */; };
+		848C79AE2B8636EC00DBDDA9 /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848C79AD2B8636EC00DBDDA9 /* Images.swift */; };
 		848FA9122B7F5EE10051F995 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848FA9112B7F5EE10051F995 /* AppDelegate.swift */; };
 		848FA9142B7F5EE10051F995 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848FA9132B7F5EE10051F995 /* SceneDelegate.swift */; };
-		848FA9162B7F5EE10051F995 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848FA9152B7F5EE10051F995 /* ViewController.swift */; };
-		848FA9192B7F5EE10051F995 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 848FA9172B7F5EE10051F995 /* Main.storyboard */; };
+		848FA9162B7F5EE10051F995 /* ChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848FA9152B7F5EE10051F995 /* ChartViewController.swift */; };
 		848FA91B2B7F5EE50051F995 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 848FA91A2B7F5EE50051F995 /* Assets.xcassets */; };
 		848FA91E2B7F5EE50051F995 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 848FA91C2B7F5EE50051F995 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7E496C7410EA2A1A501934DA /* Pods-CSV-Chart.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CSV-Chart.debug.xcconfig"; path = "Target Support Files/Pods-CSV-Chart/Pods-CSV-Chart.debug.xcconfig"; sourceTree = "<group>"; };
+		848C79A72B86334700DBDDA9 /* DateValueFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateValueFormatter.swift; sourceTree = "<group>"; };
+		848C79A92B8633A000DBDDA9 /* ChartViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartViewModel.swift; sourceTree = "<group>"; };
+		848C79AB2B86366F00DBDDA9 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		848C79AD2B8636EC00DBDDA9 /* Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
 		848FA90E2B7F5EE10051F995 /* CSV-Chart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CSV-Chart.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		848FA9112B7F5EE10051F995 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		848FA9132B7F5EE10051F995 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		848FA9152B7F5EE10051F995 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		848FA9182B7F5EE10051F995 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		848FA9152B7F5EE10051F995 /* ChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartViewController.swift; sourceTree = "<group>"; };
 		848FA91A2B7F5EE50051F995 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		848FA91D2B7F5EE50051F995 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		848FA91F2B7F5EE50051F995 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E2736B45011417D6FD12CBF /* Pods_CSV_Chart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CSV_Chart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA5B9BB747057C2BD26B9E35 /* Pods-CSV-Chart.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CSV-Chart.release.xcconfig"; path = "Target Support Files/Pods-CSV-Chart/Pods-CSV-Chart.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +41,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6BB486B3B202E116FA96ED0C /* Pods_CSV_Chart.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8449383B2B7F6C2300EC5888 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				848FA91C2B7F5EE50051F995 /* LaunchScreen.storyboard */,
+				848FA9152B7F5EE10051F995 /* ChartViewController.swift */,
+				848C79A92B8633A000DBDDA9 /* ChartViewModel.swift */,
+				848C79A72B86334700DBDDA9 /* DateValueFormatter.swift */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		8449383C2B7F6C2E00EC5888 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				848FA91A2B7F5EE50051F995 /* Assets.xcassets */,
+				848C79AB2B86366F00DBDDA9 /* Colors.swift */,
+				848C79AD2B8636EC00DBDDA9 /* Images.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		848FA9052B7F5EE10051F995 = {
 			isa = PBXGroup;
 			children = (
 				848FA9102B7F5EE10051F995 /* CSV-Chart */,
 				848FA90F2B7F5EE10051F995 /* Products */,
+				D650D2F02689D5B205F20923 /* Pods */,
+				DB2D5D4F02434DACB08F3695 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +92,28 @@
 			children = (
 				848FA9112B7F5EE10051F995 /* AppDelegate.swift */,
 				848FA9132B7F5EE10051F995 /* SceneDelegate.swift */,
-				848FA9152B7F5EE10051F995 /* ViewController.swift */,
-				848FA9172B7F5EE10051F995 /* Main.storyboard */,
-				848FA91A2B7F5EE50051F995 /* Assets.xcassets */,
-				848FA91C2B7F5EE50051F995 /* LaunchScreen.storyboard */,
+				8449383B2B7F6C2300EC5888 /* Scenes */,
+				8449383C2B7F6C2E00EC5888 /* Resources */,
 				848FA91F2B7F5EE50051F995 /* Info.plist */,
 			);
 			path = "CSV-Chart";
+			sourceTree = "<group>";
+		};
+		D650D2F02689D5B205F20923 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7E496C7410EA2A1A501934DA /* Pods-CSV-Chart.debug.xcconfig */,
+				BA5B9BB747057C2BD26B9E35 /* Pods-CSV-Chart.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DB2D5D4F02434DACB08F3695 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8E2736B45011417D6FD12CBF /* Pods_CSV_Chart.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +123,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 848FA9222B7F5EE50051F995 /* Build configuration list for PBXNativeTarget "CSV-Chart" */;
 			buildPhases = (
+				CA126A689176467386E6AC5B /* [CP] Check Pods Manifest.lock */,
 				848FA90A2B7F5EE10051F995 /* Sources */,
 				848FA90B2B7F5EE10051F995 /* Frameworks */,
 				848FA90C2B7F5EE10051F995 /* Resources */,
+				959B992E9F1EDB170FBCF57B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,18 +178,63 @@
 			files = (
 				848FA91E2B7F5EE50051F995 /* LaunchScreen.storyboard in Resources */,
 				848FA91B2B7F5EE50051F995 /* Assets.xcassets in Resources */,
-				848FA9192B7F5EE10051F995 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		959B992E9F1EDB170FBCF57B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CSV-Chart/Pods-CSV-Chart-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CSV-Chart/Pods-CSV-Chart-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CSV-Chart/Pods-CSV-Chart-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA126A689176467386E6AC5B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CSV-Chart-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		848FA90A2B7F5EE10051F995 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				848FA9162B7F5EE10051F995 /* ViewController.swift in Sources */,
+				848C79AE2B8636EC00DBDDA9 /* Images.swift in Sources */,
+				848C79AA2B8633A000DBDDA9 /* ChartViewModel.swift in Sources */,
+				848C79AC2B86366F00DBDDA9 /* Colors.swift in Sources */,
+				848FA9162B7F5EE10051F995 /* ChartViewController.swift in Sources */,
+				848C79A82B86334700DBDDA9 /* DateValueFormatter.swift in Sources */,
 				848FA9122B7F5EE10051F995 /* AppDelegate.swift in Sources */,
 				848FA9142B7F5EE10051F995 /* SceneDelegate.swift in Sources */,
 			);
@@ -147,14 +243,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		848FA9172B7F5EE10051F995 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				848FA9182B7F5EE10051F995 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		848FA91C2B7F5EE50051F995 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -216,7 +304,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +358,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -282,6 +370,7 @@
 		};
 		848FA9232B7F5EE50051F995 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E496C7410EA2A1A501934DA /* Pods-CSV-Chart.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -292,9 +381,9 @@
 				INFOPLIST_FILE = "CSV-Chart/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,6 +391,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "ru.yandex.practicum.ognerub.CSV-Chart";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -310,6 +402,7 @@
 		};
 		848FA9242B7F5EE50051F995 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA5B9BB747057C2BD26B9E35 /* Pods-CSV-Chart.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -320,9 +413,9 @@
 				INFOPLIST_FILE = "CSV-Chart/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -330,6 +423,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "ru.yandex.practicum.ognerub.CSV-Chart";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
